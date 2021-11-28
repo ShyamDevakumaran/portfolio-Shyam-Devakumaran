@@ -1,0 +1,114 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*NAVBAR*/
+.navbar{
+    background-image: linear-gradient(to right,#0869c4,#5f068b ) !important;
+    padding: 20px !important;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.navbar-brand span{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px;
+    color: #fff;
+    font-family: bold;
+
+}
+.navbar-brand img{
+    height: 60px;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.navbar-nav li{
+    padding:  0 7px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/*NAVBAR*/
+/*CERTIFICATES*/
+#certificates{
+    background-image: linear-gradient(to right , #0869c4,#5f068b);
+    color: #fff;
+    padding-top: 5%;
+    padding-top: 30px;
+    padding-bottom:20px;
+
+}
+.certificates-tittle {
+    font-size: 25px;
+    font-weight: 530;
+    font-family: bold;
+    border-bottom: 1.5px solid #fff;
+    margin: 10px;
+}
+.certificates-second {
+    font-size: 25px;
+    font-weight: 530;
+    font-family: bold;
+    border-bottom: 1px solid #fff transparent;
+    margin: 10px;
+}
+
+.card{
+    background: #fff !important;
+    border: none !important;
+    box-shadow: 15px 10px 10px rgba(0, 0,0, .2),
+                inset 4px 4px 10px white ;
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.card-title{
+    color: black;
+    font-family: 'Andada Pro', serif;
+    font-weight: 500;
+}
+
+/*CERTIFICATES*/
+
+/* FOOTER */
+
+.footer-bottom{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right , #0869c4,#5f068b);
+    padding: 10px ;
+   
+ }
+ .footer-bottom p{
+    color: #fff;
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+     font-family: bold;
+ }
+ .footer-bottom span{
+    color: rgb(206, 163, 22) !important;
+     text-transform: uppercase;
+     font-family: 'Andada Pro', serif;
+     font-weight: 900;
+ }
+ 
+ 
+ /* //FOOTER */
